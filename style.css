@@ -1,3 +1,4 @@
+
 *{
    
     margin:0px;
@@ -118,10 +119,10 @@ nav{
 .overlay{
     width: 0;
     height:0;
-    border-top: 500px solid  rgb(204, 190, 190);
+    border-top: 500px solid  rgb(202, 204, 91);
     border-right: 500px solid transparent ;
-    border-bottom: 500px solid   rgb(204, 190, 190);
-    border-left: 500px solid  rgb(204, 190, 190);
+    border-bottom: 500px solid  rgb(177, 206, 48);
+    border-left: 500px solid  rgb(204, 219, 67);
     position: absolute;
     left: 0;
     top: 99px;
@@ -135,3 +136,60 @@ nav{
     border-radius: 60%;
 
 }
+.content {
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.slider-wrapper{
+  font-size: 30px;
+  font-weight:bold;
+  font-family:'Playball', cursive; 
+  font-style: italic;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+
+}
+.slider{
+  height: 50px;
+  padding-left: 15px ;
+  overflow: hidden;
+
+}
+.slider div{
+ height: 50px;
+ margin-bottom: 50px;
+ padding: 2px 15px;
+ text-align: center;
+ box-sizing: border-box;
+
+
+}
+.slider-text1{
+ background-color: lightcoral;
+ animation: slide 5s linear infinite;    
+}
+.slider-text2{
+    background-color: rgb(216, 173, 53);    
+   }
+ .slider-text3{
+    background-color: rgb(148, 43, 101);    
+   }
+  @keyframes slide{
+      0% {margin-top: -300px;}
+      5% {margin-top: -200px;}
+      33% {margin-top: -200px;}
+      38% {margin-top: -100px;}
+      66% {margin-top: -100px;}
+      71% {margin-top:0px;}
+      100% {margin-top: 0px;}
+      
+
+  } 
