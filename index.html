@@ -26,12 +26,12 @@
           </div>
    </nav> 
   <script src="app.js"></script>
-  <div class="back"> <img src="Brady Brady Fun Fun.jpg" width="1520px" height="1000px"></div>
+  <div class="back"> <img src="Brady Brady Fun Fun.jpg" width="1530px" height="1000px"></div>
   <div class="overlay"></div>
   <div class="myphoto">
- <img src="RoundPhoto_Jul302020_115929.png" alt="mphoto" width="300px" height="300px">
+ <img src="RoundPhoto_Jul302020_115929.png" alt="mphoto" id='miku' width="300px" height="300px">
   </div>
-  <div class="anime"><span>css text slider</span></div>
+  <div class="anime"></div>
   <div class="content">
       <div class="slider-wrapper">
           I am a
@@ -42,5 +42,12 @@
           </div>
       </div>
   </div>
+  <div class="lines">
+  <button class="btnn"><span style="font-size:30px;cursor:pointer;font-family:'Dancing Script'cursive"onclick="slideIn('box1');"><p>About</p></span></button>
+  </div>
+<div id="box1">
+ <a href="javascript:void(0)" class="closebtn" onclick="slideOut('box1');">&times;</a>
+ <p>Content in box 1 ...</p>
+</div>
 </body>
 </html>

@@ -28,7 +28,7 @@ nav{
     text-transform: uppercase;
 }
 .nav-links a{ 
-  color: rgb(59, 145, 224);  
+  color:#ffff; 
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -133,8 +133,11 @@ nav{
     position: absolute;
     left:5%;
     top:30%;
-    border-radius: 60%;
+    
 
+}
+#miku{
+    border-radius: 50%;
 }
 .content {
   width: 100vw;
@@ -193,3 +196,48 @@ nav{
       
 
   } 
+  .lines{
+    background: #9DCEFF;
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	top: 350px;
+	right:60px;
+  }
+  #box1 {
+	background: #051a5f;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 410px;
+    right:-402px;
+    overflow: hidden;
+   
+}
+#box1 a{
+    font-size: 50px;
+    color: #0fe69e;
+    
+}
+
+#box1 p{
+text-align: center;
+
+}
+.btnn{
+    opacity:1;
+    color: #ffff;
+    background-color: rgb(212, 194, 26);
+  
+  }
+  
+
+.btnn:hover{
+    opacity:0.5;
+  }
+
+
+
+
+
+

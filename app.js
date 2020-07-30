@@ -27,5 +27,14 @@ const navSlide = () => {
 
 }
 navSlide();
-   
+function slideIn(el){
+	var elem = document.getElementById(el);
+	elem.style.transition = "right 0.5s ease-in 0s";
+	elem.style.right = "0px";
+}
+function slideOut(el){
+	var elem = document.getElementById(el);
+	elem.style.transition = "right 0.5s ease-out 0s";
+	elem.style.right = "-400px";
+}
    
