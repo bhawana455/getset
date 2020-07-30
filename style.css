@@ -1,4 +1,5 @@
 *{
+   
     margin:0px;
     padding:0px ;
     box-sizing: border-box;
@@ -8,7 +9,7 @@ nav{
     justify-content:space-around;
     align-items: center;
     min-height:12vh ;
-    background-color: #5D4954;
+    background-color:rgb(163, 59, 59);
     font-family: 'Poppins,sans-serif';
 }
 .logo{
@@ -25,13 +26,24 @@ nav{
     list-style: none;
     text-transform: uppercase;
 }
-.nav-links a{
-  color: aliceblue;  
+.nav-links a{ 
+  color: rgb(59, 145, 224);  
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
+  transition: 0.5s;
+  
 }
+.nav-links a:hover{
+    background-color:rgb(163, 59, 59);  
+     color:rgb(59, 145, 224);
+     line-height:50px;
+     transform: scale(1.2);
+  }
+
+
+
 .burger{
     display: none;
     cursor: pointer;
@@ -39,10 +51,12 @@ nav{
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: aliceblue;
+  background-color:blueviolet;
   margin: 5px;
+  transition: all 0.3s ease;
 
 }
+
 
 
 @media screen and (max-width:1024px)
@@ -61,7 +75,7 @@ nav{
   right: 0px;
   height: 92vh;
   top: 8vh; 
-  background-color: #5D4954;
+  background-color: #0a0a0a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,4 +104,34 @@ nav{
         opacity: 1;
         transform:translateX(0px) ;
     }
+}
+.toggle .line1{
+   transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+   opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+
+}
+.overlay{
+    width: 0;
+    height:0;
+    border-top: 500px solid  rgb(204, 190, 190);
+    border-right: 500px solid transparent ;
+    border-bottom: 500px solid   rgb(204, 190, 190);
+    border-left: 500px solid  rgb(204, 190, 190);
+    position: absolute;
+    left: 0;
+    top: 99px;
+}
+.myphoto{
+    width:30px;
+    height: 30px;
+    position: absolute;
+    left:5%;
+    top:30%;
+    border-radius: 60%;
+
 }
