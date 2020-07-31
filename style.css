@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Sacramento&display=swap');
 *{
    
     margin:0px;
@@ -197,7 +197,7 @@ nav{
 
   } 
   .lines{
-    background: #9DCEFF;
+   
 	width: 60px;
 	height: 40px;
 	position: absolute;
@@ -215,25 +215,35 @@ nav{
    
 }
 #box1 a{
-    font-size: 50px;
-    color: #0fe69e;
+    font-size: 30px;
+   color: peachpuff;
     
 }
 
 #box1 p{
 text-align: center;
+font-family:  'Oleo Script', cursive;
+color: aliceblue;
 
+}
+.btnn p{
+ font-size: 20px;
+ border-style: none;
+font-family: cursive;
+ line-height: 25px;
 }
 .btnn{
     opacity:1;
     color: #ffff;
-    background-color: rgb(212, 194, 26);
+    background-color:crimson;
+    border-style: none;
   
   }
   
 
 .btnn:hover{
     opacity:0.5;
+    border-style: none;
   }
 
 
