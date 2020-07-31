@@ -3,51 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav>
-   
+   <header>
+   <div class="container">
        <div class="logo">
-        <img src="girl-and-check.png" width="90px" height="90px"> 
+           <a href=""><span>BHA</span>WANA</a>
+       </div>
+   <div class="navbar">
+       <ul>
+           <li><a href="" class="active">Home</a></li>
+           <li><a href="">About</a></li>
+           <li><a href="">Certification</a></li>
+           <li><a href="">Contact</a></li>
+           </ul>
+   </div>
+   </div>
+</header>
+<!-----end header--->
+<section class="home">
+    <div class="container">
+        <div class="home-text">
+         <h1> Hi , I am Bhawana Priyadarshini</h1>
+         <h3>Frontend Developer</h3>
         </div>
-       <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">certification</a></li>
-         
-          </ul>
-          <div class="burger">
-           <div class="line1"></div>
-           <div class="line2"></div>
-           <div class="line3"></div>
-          </div>
-   </nav> 
-  <script src="app.js"></script>
-  <div class="back"> <img src="Brady Brady Fun Fun.jpg" width="1530px" height="1000px"></div>
-  <div class="overlay"></div>
-  <div class="myphoto">
- <img src="RoundPhoto_Jul302020_115929.png" alt="mphoto" id='miku' width="300px" height="300px">
-  </div>
-  <div class="anime"></div>
-  <div class="content">
-      <div class="slider-wrapper">
-          I am a
-          <div class="slider">
-            <div class="slider-text1">Programmer</div>
-            <div class="slider-text2">Dancer</div>
-            <div class="slider-text3">Painter</div>
-          </div>
+    </div>
+</section>
+<!-----end home---->
+<section class="about">
+ <div class="container">
+   <h2 class="title">About me</h2>
+   <div class="about-content">
+     <div class="img">
+         <img src="girl-and-check.png">
+     </div>
+     <div class="description">
+        <h4> Hi , I am Bhawana Priyadarshini</h4>
+        <h5>Frontend Developer</h5>
+        <p>contents...</p>
+        <p>contents...</p>
+        <p>
+        <button type="button" class="btn-bg">Download CV</button>
+        <button type="button" class="btn-light">Hire ME</button>
+        </p>
       </div>
   </div>
-  <div class="lines">
-  <button class="btnn"><span style="font-size:30px;cursor:pointer;font-family:'Dancing Script'cursive"onclick="slideIn('box1');"><p>About</p></span></button>
-  </div>
-<div id="box1">
- <a href="javascript:void(0)" class="closebtn" onclick="slideOut('box1');">&times;</a>
- <p>My self Bhawana Priyadarshini.I am recently pursuing my B.Tech degree in ITER,SOA University,bbsr.<br>I completed my seconary and senior-secondary education from Kendriya Vidyalaya No2,kharagpur.<br>I am also good in athletics.I am professionally trained Bharatnatyam dancer.<br>Beside this I am also interested in painting.</p>
-</div>
+ </div>
+</section>
 </body>
 </html>
