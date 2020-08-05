@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top" >&#8593;</button>
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
    <header>
    <div class="container">
        <div class="logo">
@@ -16,9 +39,9 @@
    <div class="navbar">
        <ul>
            <li><a href="" class="active">Home</a></li>
-           <li><a href="">About</a></li>
-           <li><a href="">Certification</a></li>
-           <li><a href="">Contact</a></li>
+           <li><a href="#About">About</a></li>
+           <li><a href="#Certification">Certification</a></li>
+           <li><a href="#Contact">Contact</a></li>
            </ul>
    </div>
    </div>
@@ -49,7 +72,7 @@
 
 </section>
 <!-----end home---->
-<section class="about">
+<section class="about" id="About">
  <div class="container">
    <h2 class="title">About me</h2>
    <div class="about-content">
@@ -138,7 +161,7 @@
     </div>
 </section> 
 <!----extra curricular--->
-<section class="certificate">
+<section class="certificate" id="Certification">
     <h2 class="title">certificate</h2>
      <div class="responsive">
       <div class="gallery">
@@ -178,7 +201,7 @@
     <div class="clearfix"></div>
 
 </section>
-<section class="contact">
+<section class="contact" id="Contact">
   <h2 class="title">Contact Form</h2>
 
   <div class="container">
