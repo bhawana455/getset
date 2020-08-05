@@ -16,12 +16,13 @@ body{
   margin: auto;
 }
 header{
-  position: absolute;
+  position: fixed;
   width:100%;
   left: 0;
   top: 0;
   padding: 15px;
   z-index: 10;
+  background-color: #050b1f;
 }
 header .logo{
   float:left ;
@@ -39,6 +40,7 @@ header .logo a span{
 }
 header .navbar{
  float:right;
+ 
 }
 header .navbar ul{
   list-style: none;
