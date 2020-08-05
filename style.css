@@ -509,6 +509,14 @@ opacity: 0.7;
     top: 360px;
     padding: 36px 32px;
   }
+  .sk .responsive{
+
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+  }
+ 
   .certificate{
     float: left;
   width: 100%;
@@ -550,12 +558,20 @@ opacity: 0.7;
       width: 49.99999%;
       margin: 6px 0;
     }
+
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     .certificate .responsive {
       width: 100%;
-    }
+     }
+       .sk .text1 , .sk .middle1{
+      font-size: 14px;
+      }
+      .container img{
+        width: 30%;
+      }
+    
   }
   
   .certificate .clearfix:after {
