@@ -635,6 +635,11 @@ opacity: 0.7;
           .home .home-text h3{
             font-size: 30px;
           }
+          .header .navbar ul li a{
+           
+            font-size: 12px;
+          
+          }
     
   }
   
