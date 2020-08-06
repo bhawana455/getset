@@ -434,8 +434,10 @@ header .navbar ul li a:hover::before{
   width: 100%;
   padding: 80px 0px ;
   background-color: #555;
-  
+   float: left;
   }
+
+ 
  .sk .container
  {
    display: block;
