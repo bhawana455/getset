@@ -638,7 +638,11 @@ opacity: 0.7;
           .header .navbar ul li a{
            
             font-size: 16px;
-            right: 5px;
+            right:6px;
+            
+          }
+          .header .logo{
+            font-size: 12px;
           }
   }
   
