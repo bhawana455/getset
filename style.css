@@ -561,7 +561,7 @@ opacity: 0.7;
 
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .certificate .responsive 
     {
       width: 100%;
@@ -613,14 +613,9 @@ opacity: 0.7;
         .sk .middle1 {
           position: absolute;
           padding-top:500px;
-          top: 2612px;
-          left: 330px;
-         
-         
-        }
-        .sk .middle1 .text1 {
-          font-size: 11px;
-          
+          top: 2635px;
+          left: 125px;
+          right: 228px;
         }
         
         .home .home-text
@@ -640,17 +635,7 @@ opacity: 0.7;
           .home .home-text h3{
             font-size: 30px;
           }
-          .header .navbar ul li a {
-           
-            font-size: 11px;
-            
-             
-          }
-          header .logo a{
-            font-size: 15px;
-            
-           }
-          
+    
   }
   
   .certificate .clearfix:after {
