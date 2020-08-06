@@ -641,16 +641,13 @@ opacity: 0.7;
             font-size: 30px;
           }
           .header .navbar ul li a{
-           
             font-size: 16px;
-            
-            
           }
           .header .logo{
             font-size: 6px;
           }
   }
-  right:-6px;
+  
   .certificate .clearfix:after {
     content: "";
     display: table;
