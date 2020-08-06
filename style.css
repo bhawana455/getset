@@ -616,9 +616,7 @@ opacity: 0.7;
           top: 2612px;
           left: 350px;
           right: 228px;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          text-align: center;
+         
         }
         
         .home .home-text
@@ -647,6 +645,11 @@ opacity: 0.7;
             font-size: 15px;
             
            }
+           .sk .middle1 .text1 {
+          
+            font-size: 11px;
+            
+          }
     
   }
   
