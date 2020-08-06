@@ -100,7 +100,7 @@ opacity: 0.7;
  position: absolute;
  top: 50%;
  transform:translate(-50%);
- right:505px;
+ right:10%;
  z-index:10;
 }
   .home .home-text h1{
@@ -562,15 +562,79 @@ opacity: 0.7;
   }
   
   @media only screen and (max-width: 600px) {
-    .certificate .responsive {
+    .certificate .responsive 
+    {
       width: 100%;
-     }
-       .sk .text1 , .sk .middle1{
-      font-size: 14px;
-      }
-      .container img{
-        width: 30%;
-      }
+    }
+    .sk 
+    {
+        float: center;
+        width: 100%;
+        padding: 80px 0px ;
+    }
+        
+        .sk .image {
+          opacity: 1;
+          display: block;
+          width: 420px;
+          height: 255px;
+        }
+        
+        .sk .middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 2612px;
+          left: 350px;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        
+        .sk .container:hover .image {
+          opacity: 0.3;
+        }
+        
+        .sk  .container:hover .middle {
+          opacity: 1;
+        }
+        
+        .sk .middle .text {
+          font-size: 16px;
+          top: 350px;
+        }
+        .sk .image1 {
+          opacity: 1;
+          display: block;
+          width: 420px;
+          height: 255px;
+        }
+        
+        .sk .middle1 {
+          position: absolute;
+          padding-top:500px;
+          top: 2635px;
+          left: 125px;
+          right: 228px;
+        }
+        
+        .home .home-text
+        {
+            position: absolute;
+            top: 50%;
+            transform:translate(-50%);
+            right:0%;
+            left: 60%;
+            z-index:10;
+        }
+
+        .home .home-text h1{
+            font-size: 20px;
+        
+          }
+          .home .home-text h3{
+            font-size: 30px;
+          }
     
   }
   
@@ -628,7 +692,6 @@ opacity: 0.7;
     }
   .icons ul {
       position: absolute;
-      top: 4429px;
       left: 50%;
       transform: translate(-50%, -50%);
       margin: 0;
